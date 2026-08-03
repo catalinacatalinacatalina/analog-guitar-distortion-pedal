@@ -2,7 +2,7 @@
 
 This is the workflow I followed to go from breadboard prototype to a finished pedal PCB.
 
-Current status: Steps 1 to 5 are complete (schematic, layout, routing, and fabrication files). The PCB order is still pending submission to the manufacturer.
+Current status: Steps 1 to 5 are complete, the PCB was fabricated, soldered, and validated, and the project is finished.
 
 ## 1. Create the Schematic in KiCad
 
@@ -30,6 +30,8 @@ Expected result: a clean schematic with no critical errors and all footprints as
 3. Keep sensitive signal paths short and separate high-impedance audio nodes where possible.
 4. Leave enough room for routing and ground areas.
 
+**Practical note**: when the board was printed, some resistor footprints looked slightly undersized, so the resistor bodies felt too large for the available pads/space. Footprint size and component clearance should be checked before freezing the layout.
+
 ## 4. Route Traces
 
 1. Route critical lines first (input, feedback, and audio output).
@@ -56,6 +58,12 @@ Routing example:
 
 ![PCB render](../../images/render.png)
 
-## 6. Send to Manufacturing (Pending)
+## Fabrication Photos
 
-Choose your preferred PCB manufacturer and place the order.
+![Bare PCB](../../images/barepcb.png)
+
+![Assembled PCB](../../images/welded.png)
+
+## 6. Send to Manufacturing
+
+The PCB fabrication package was prepared, sent, and turned into the completed board shown below.

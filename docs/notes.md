@@ -4,7 +4,7 @@
 
 - Breadboard prototype is fully working and validated.
 - PCB design is complete and fabrication files are generated.
-- PCB order is pending submission to the manufacturer.
+- PCB fabrication and assembly are complete, and the finished pedal has been tested.
 
 ## Design Phase
 
@@ -44,7 +44,7 @@
 - [x] PCB layout completed
 - [x] DRC completed with no blocking errors
 - [x] Gerber and drill files generated
-- [ ] PCB order submitted to manufacturer
+- [x] PCB ordered, assembled, and validated
 
 ## References
 

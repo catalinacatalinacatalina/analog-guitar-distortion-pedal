@@ -8,7 +8,7 @@ This is a minimal-parts-count analog distortion circuit based on Brian Wampler's
 
 - Breadboard prototype is working and validated.
 - PCB design is complete.
-- PCB manufacturing order is pending.
+- PCB fabrication files were generated and the finished board was built and tested.
 
 **Note**: This simplified version **excludes the passive tone control stage** for minimal component count. It includes only power supply, two gain stages with clipping, and an output buffer.
 
@@ -51,6 +51,8 @@ The intersection in all three stages is **vref** in the original schematic.
 
 ### PCB Phase
 It is hardly recommended in terms of space to use PCB components, but in order to maintain simplicity I am using the same components from the breadboard phase. Keep this in mind if you use the KiCad files or if you manufacture this PCB.
+
+The PCB stage has already been completed, fabricated, soldered, and validated.
 
 
 ## Modifications from Wampler's Original
